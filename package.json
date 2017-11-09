@@ -1,0 +1,26 @@
+{
+  "name": "donut-crush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "webpack": "webpack",
+  "watch": "webpack -w",
+  "server": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilylhansen/donut-crush.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilylhansen/donut-crush/issues"
+  },
+  "homepage": "https://github.com/emilylhansen/donut-crush#readme",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  }
+}

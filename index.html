@@ -2,19 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="./lib/bundle.js"></script>
     <title>Donut Crush</title>
   </head>
   <body>
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", () => {
-        let board = document.getElementById("board");
-        board.style.border = "1px solid black";
-      })
-    </script>
-    <div id="root">
+
+    <div class="root">
       <div class="board">
-        
+
       </div>
     </div>
+
   </body>
 </html>
+
+
+
+
+<!--
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", () => {
+let board = document.getElementsByClassName("board")[0];
+board.style.border = "1px solid black";
+board.style.height = "300px"
+board.style.width = "300px"
+});
+
+</script> -->
