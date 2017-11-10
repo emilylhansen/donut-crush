@@ -1,0 +1,18 @@
+.root {
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  /*display: block;*/
+
+}
+
+li {
+  border: 1px solid black;
+  float: left;
+  display: inline-block;
+
+}
