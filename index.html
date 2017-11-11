@@ -4,21 +4,38 @@
     <meta charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="./lib/bundle.js"></script>
+    <script src="./howler.js/dist/howler.js"></script>
     <link rel="stylesheet" type="text/css"  href="./lib/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <title>Donut Crush</title>
   </head>
-  <body>
+  <body background="./lib/images/Final-Background.jpg">
     <script type="text/javascript">
       document.addEventListener("DOMContentLoaded", () => {
         const rootEl = document.getElementsByClassName("root")[0];
 
         const boardEl = document.getElementsByClassName("board")[0];
+        var sound = new Howl({
+          src: ['./audio/background_audio.webm', './audio/background_audio.mp3']
+        });
+        var sound = new Howl({
+          src: ['./audio/background_audio.webm', './audio/background_audio.mp3'],
+          autoplay: true,
+          loop: true,
+          volume: 0.5,
+          onend: function() {
+            console.log('Finished!');
+          }
+        });
+        sound.play();
       })
     </script>
 
     <div class="root">
+      <div class="title">
+        <h1>Donut Crush</h1>
+      </div>
       <div class="dash">
-
       </div>
       <div class="board">
 
