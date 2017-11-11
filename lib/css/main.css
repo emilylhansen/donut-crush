@@ -1,11 +1,18 @@
 .root {
-  width: 500px;
-  height: 500px;
-  /*border: 1px solid black;*/
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
   margin: 0 auto;
   margin-top: 200px;
+  align-content: center;
 }
 
+.main {
+  border: 1px solid black;
+  display: flex;
+  margin: 0 auto;
+  align-content: center;
+}
 .title {
   /*border: 1px solid black;*/
   margin: 0 auto;
@@ -20,6 +27,28 @@
   color: #FCD134;
   -webkit-text-fill-color: #FCD134;
   -webkit-text-stroke: 2px #4C2600;
+}
+
+.dash {
+  border: 3px solid #C90175;
+  width: 200px;
+  height: 300px;
+  background-color: #F992CA;
+  border-radius: 10px;
+}
+
+.dash-score {
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  color
+}
+
+
+.dash-music {
+  border: 1px solid black;
+  width: 20px;
+  height: 30px;
+
 }
 
 .board {

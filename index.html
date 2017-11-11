@@ -7,6 +7,8 @@
     <script src="./howler.js/dist/howler.js"></script>
     <link rel="stylesheet" type="text/css"  href="./lib/css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <title>Donut Crush</title>
   </head>
   <body background="./lib/images/Final-Background.jpg">
@@ -19,7 +21,7 @@
           src: ['./audio/background_audio.webm', './audio/background_audio.mp3']
         });
         var sound = new Howl({
-          src: ['./audio/background_audio.webm', './audio/background_audio.mp3'],
+          src: ['./audio/background_audio.webm', './audio/background_audio.mp3', './audio/background_audio.wav'],
           autoplay: true,
           loop: true,
           volume: 0.5,
@@ -35,10 +37,24 @@
       <div class="title">
         <h1>Donut Crush</h1>
       </div>
-      <div class="dash">
-      </div>
-      <div class="board">
+      <div class="main">
+        <div class="dash">
+          <div class="dash-score">
+            <h2>Score: </h2>
+          </div>
+          <div class="dash-moves">
+            <h2>Moves: </h2>
+          </div>
+          <div class="dash-time">
+            <h2>Time: </h2>
+          </div>
+          <div class="dash-music">
+            <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="board">
 
+        </div>
       </div>
     </div>
 
