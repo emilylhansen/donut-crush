@@ -6,32 +6,14 @@
     <script src="./lib/bundle.js"></script>
     <script src="./howler.js/dist/howler.js"></script>
     <link rel="stylesheet" type="text/css"  href="./lib/css/main.css">
+    <link rel="stylesheet" type="text/css"  href="./lib/css/dash.css">
+    <link rel="stylesheet" type="text/css"  href="./lib/css/board.css">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <title>Donut Crush</title>
   </head>
   <body background="./lib/images/Final-Background.jpg">
-    <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", () => {
-        const rootEl = document.getElementsByClassName("root")[0];
-
-        const boardEl = document.getElementsByClassName("board")[0];
-        var sound = new Howl({
-          src: ['./audio/background_audio.webm', './audio/background_audio.mp3']
-        });
-        var sound = new Howl({
-          src: ['./audio/background_audio.webm', './audio/background_audio.mp3', './audio/background_audio.wav'],
-          autoplay: true,
-          loop: true,
-          volume: 0.5,
-          onend: function() {
-            console.log('Finished!');
-          }
-        });
-        sound.play();
-      })
-    </script>
 
     <div class="root">
       <div class="title">
@@ -40,16 +22,19 @@
       <div class="main">
         <div class="dash">
           <div class="dash-score">
-            <h2>Score: </h2>
+            <h2 class="dash-score-text">Score: </h2>
           </div>
           <div class="dash-moves">
-            <h2>Moves: </h2>
+            <h2 class="dash-moves-text">Moves: </h2>
           </div>
           <div class="dash-time">
-            <h2>Time: </h2>
+            <h2 class="dash-time-text">Time: </h2>
+          </div>
+          <div class="dash-game" onClick='newGame()'>
+            <h2 class="dash-game-text">New Game</h2>
           </div>
           <div class="dash-music">
-            <i class="fa fa-music fa-3x" aria-hidden="true"></i>
+            <i class="fa fa-music fa-2x" aria-hidden="true"></i>
           </div>
         </div>
         <div class="board">

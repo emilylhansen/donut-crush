@@ -1,0 +1,40 @@
+.dash {
+  margin: 0 auto;
+  border: 2px solid #C90175;
+  width: 200px;
+  height: 380px;
+  background-image: url("../images/pink-stripes.jpg");
+  border-radius: 10px;
+  align-content: center;
+  padding: 10px;
+  box-shadow: 3px 3px 5px #C90175;
+}
+
+.dash-score, .dash-moves, .dash-time, .dash-game {
+  border-radius: 10px;
+  margin: 0 auto;
+  font-family: 'Shrikhand', cursive;
+  text-align: center;
+  color: white;
+  background-color: #FAD1E6;
+  font-size: 14px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 5px #C90175;
+
+}
+
+.dash-game:hover {
+  cursor: pointer;
+}
+
+.dash-game:active {
+  background-color: #f28ec2;
+}
+
+.dash-music {
+  border: 1px solid black;
+}
+
+.dash-music:hover {
+  cursor: pointer;
+}
