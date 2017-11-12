@@ -19,7 +19,7 @@
   background-color: #FAD1E6;
   font-size: 14px;
   margin-bottom: 10px;
-  box-shadow: 3px 3px 5px #C90175;
+  box-shadow: inset 0px 0px 10px #C90175;
 
 }
 
@@ -27,7 +27,7 @@
   margin: 0 auto;
   font-family: 'Shrikhand', cursive;
   text-align: center;
-  color: #760077;
+  color: #475D3B;
   font-size: 10px;
   margin-bottom: 10px;
 }
@@ -42,7 +42,7 @@
 
 .dash-game:hover {
   cursor: pointer;
-  background-color: #760077;
+  background-color: #FBED3E;
 }
 
 .dash-game:active {
@@ -50,7 +50,6 @@
 }
 
 .dash-links {
-  /*border: 1px solid black;*/
   text-align: center;
   align-content: center;
 }
@@ -68,7 +67,7 @@
 
 .dash-links .fa-music:hover, .music-on{
   cursor: pointer;
-  color: #760077;
+  color: #00B912;
 }
 
 .music-on:hover {
@@ -80,5 +79,5 @@
 }
 
 .dash-links a:hover {
-  color: #760077;
+  color: #7C00B0;
 }

@@ -1,33 +1,31 @@
 .root {
   width: 100%;
   height: 100%;
-  /*border: 1px solid black;*/
   margin: 0 auto;
   margin-top: 200px;
   align-content: center;
 }
 
 .main {
-  /*border: 1px solid black;*/
+  width: 80%;
   display: flex;
   margin: 0 auto;
   align-content: center;
 }
 .title {
-  /*border: 1px solid black;*/
   margin: 0 auto;
   align-content: center;
 }
 
 .title h1 {
-  /*border: 1px solid black;*/
   text-align: center;
   font-size: 50px;
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
   color: #FCD134;
   -webkit-text-fill-color: #FCD134;
-  -webkit-text-stroke: 1px #4C2600;
+  -webkit-text-stroke: 2px #4C2600;
   background: -webkit-linear-gradient(#FCD134, #CA4700);
- -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
