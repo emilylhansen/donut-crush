@@ -66,9 +66,13 @@
   cursor: pointer;
 }
 
-.dash-links .fa-music:hover{
+.dash-links .fa-music:hover, .music-on{
   cursor: pointer;
   color: #760077;
+}
+
+.music-on:hover {
+  color: black;
 }
 
 .dash-links a {

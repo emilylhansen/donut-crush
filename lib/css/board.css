@@ -55,7 +55,10 @@ li:hover {
   font-family: 'Shrikhand', cursive;
   color: #FCD134;
   -webkit-text-fill-color: #FCD134;
-  -webkit-text-stroke: 2px #4C2600;
+  -webkit-text-stroke: 1px #4C2600;
+  background: -webkit-linear-gradient(#FCD134, #CA4700);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
   margin-top: 100px;
 }
 
