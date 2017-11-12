@@ -35,3 +35,52 @@ li:hover {
   cursor: pointer;
   -webkit-transform: scale(1.2);
 }
+
+
+.results {
+  border-radius: 10px;
+  border: 2px solid #C90175;
+  box-shadow: 3px 3px 5px #C90175;
+  width: 100%;
+  height: 100%;
+  background-color: #FAD1E6;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.results h1 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Shrikhand', cursive;
+  color: #FCD134;
+  -webkit-text-fill-color: #FCD134;
+  -webkit-text-stroke: 2px #4C2600;
+  margin-top: 100px;
+}
+
+.results h3 {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Shrikhand', cursive;
+  color: #0582DB;
+  text-shadow: 3px 3px 5px #888888;
+}
+
+.results-div {
+  margin: 0 auto;
+  background-color: #0582DB;
+  margin: 0px 30px;
+  box-shadow: 3px 3px 5px #888888;
+  border-radius: 5px;
+}
+
+.results-text {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Shrikhand', cursive;
+  color: white;
+  text-shadow: 3px 3px 5px #888888;
+}
