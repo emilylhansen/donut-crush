@@ -28,4 +28,5 @@
   background: -webkit-linear-gradient(#FCD134, #CA4700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  cursor: pointer; 
 }

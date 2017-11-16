@@ -4,12 +4,18 @@
   height: 400px;
   padding-right: 0px;
   padding-bottom: 0px;
+  -webkit-animation: bummer 2s;
+  animation: bummer 2s;
+  -webkit-transform: scale(0,0);
+  transform: scale(0,0);
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
 }
 
 ul {
   border: 4px solid rgb(25,140,195);
-  width: 100%;
-  height: 100%;
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
   list-style-type: none;
   border-radius: 5px;
@@ -25,15 +31,22 @@ li {
   -webkit-transition: all .5s;
   margin: 0px;
   padding: 0px;
+
 }
 
-li:hover {
+li:hover{
   cursor: pointer;
   -webkit-transform: scale(1.2);
 }
 
 
 .results {
+  -webkit-animation: bummer 2s;
+   animation: bummer 2s;
+   -webkit-transform: scale(0,0);
+   transform: scale(0,0);
+   -webkit-animation-fill-mode: forwards;
+   animation-fill-mode: forwards;
   border-radius: 10px;
   border: 2px solid #C90175;
   box-shadow: 3px 3px 5px #C90175;
@@ -44,6 +57,19 @@ li:hover {
   margin: 0 auto;
   border-style: dashed;
   border-width: 2px;
+}
+
+
+@-webkit-keyframes bummer {
+    100% {
+        -webkit-transform: scale(1,1);
+    }
+}
+
+@keyframes bummer {
+    100% {
+        transform: scale(1,1);
+    }
 }
 
 .results h1 {
