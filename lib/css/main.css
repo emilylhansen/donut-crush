@@ -20,7 +20,7 @@
 .title h1 {
   text-align: center;
   font-size: 50px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Shrikhand', cursive;
   font-weight: 800;
   color: #FCD134;
   -webkit-text-fill-color: #FCD134;
@@ -28,5 +28,5 @@
   background: -webkit-linear-gradient(#FCD134, #CA4700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  cursor: pointer; 
+  cursor: pointer;
 }
