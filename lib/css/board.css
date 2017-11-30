@@ -34,6 +34,11 @@ ul {
   padding-left: 0px;
   background-color: rgba(25,140,195, 0.5);
   box-shadow: 3px 3px 3px #393939;
+  display: block;
+}
+
+.hide-start {
+  display: none;
 }
 
 li {
